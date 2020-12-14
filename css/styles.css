@@ -10427,6 +10427,12 @@ p {
   line-height: 1.75;
 }
 
+.navbar{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+}
 .top-nav {
   display: flex;
   flex-wrap: nowrap;
@@ -10528,14 +10534,13 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.25em;
+    font-size: 1rem;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 3.25rem !important;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
