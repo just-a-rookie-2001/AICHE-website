@@ -1,9 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-.page-section {
-  padding: 6rem 0;
-}
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
@@ -23,27 +20,6 @@ html{
   section {
     padding: 9rem 0;
   }
-}
-::-moz-selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
-::selection {
-  background: #fed136;
-  text-shadow: none;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
 }
 
 .btn-xl {
