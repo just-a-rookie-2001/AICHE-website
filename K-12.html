@@ -24,40 +24,33 @@
 
 <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top pb-lg-5" id="mainNav">
-            <ul class="navbar-brand text-uppercase top-nav mx-auto p-0 navbar-mobile1">
+        <nav class="navbar bg-dark navbar-expand-md navbar-dark px-0" id="mainNav">
+            <ul class="navbar-brand text-uppercase top-nav my-auto mr-auto p-0 navbar-mobile1">
                 <li class="nav-item">
-                    <img src="assets/img/logos/au.jpg" class="navbar-logo" alt="" />
-                </li>
-                <li class="nav-item">
-                    <p>Aiche AU Student Chapter</p>
-                </li>
-                <li class="nav-item">
-                    <img src="assets/img/logos/aiche.png" class="navbar-logo" style="margin: 0 0 0 2rem;" alt="" />
+                    <img src="assets/img/logos/aiche.png" class="navbar-logo ml-2" alt="" />
                 </li>
             </ul>
-            <div class="container">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                    data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true"
+                aria-label="Toggle navigation">Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="container-fluid bg-dark p-0">
                 <div class="flex-column m-auto position-relative" id="navbarResponsive">
-                    <ul class="navbar-brand text-uppercase top-nav m-0 p-0 navbar-mobile">
+                    <ul class="navbar-brand text-uppercase top-nav mx-auto p-0 navbar-mobile">
                         <li class="nav-item">
-                            <img src="assets/img/logos/au.jpg" class="navbar-logo" alt="" />
+                            <img src="assets/img/logos/au.jpg" class="navbar-logo mr-2" alt="" />
                         </li>
                         <li class="nav-item">
-                            <p>Aiche AU Student Chapter</p>
+                            <p>Aiche Student Chapter</p>
                         </li>
                         <li class="nav-item">
-                            <img src="assets/img/logos/aiche.png" class="navbar-logo" style="margin: 0 0 0 2rem;" alt="" />
+                            <img src="assets/img/logos/aiche.png" class="navbar-logo ml-2" alt="" />
                         </li>
                     </ul>
                     <ul class="navbar-brand text-uppercase top-nav m-0 p-0 navbar-desktop">
                         <li class="nav-item">
-                            <img src="assets/img/logos/au.jpg" class="navbar-logo" alt="" />
+                            <img src="assets/img/logos/au.jpg" class="navbar-logo mr-4" alt="" />
                         </li>
                         <li class="nav-item">
                             <p>
@@ -67,15 +60,16 @@
                             </p>
                         </li>
                         <li class="nav-item">
-                            <img src="assets/img/logos/aiche.png" class="navbar-logo" style="margin: 0 0 0 2rem;" alt="" />
+                            <img src="assets/img/logos/aiche.png" class="navbar-logo ml-4" alt="" />
                         </li>
                     </ul>
-                    <ul class="navbar-collapse navbar-nav text-uppercase bottom-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="home.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                    <div class="bg-dark m-auto" style="width: 100%">
+                        <ul class="navbar-collapse navbar-nav text-uppercase bottom-nav" id="bottom-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="true" aria-expanded="false">Board</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="board.html#team-20">2020 - 21</a>
@@ -85,7 +79,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                aria-haspopup="true" aria-expanded="false">Achievements</a>
+                            aria-haspopup="true" aria-expanded="false">Achievements</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="Achievements.html#2018-2019">2018-2019</a>
                                 <a class="dropdown-item" href="Achievements.html#2019-2020">2019-2020</a>
@@ -93,7 +87,7 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                                aria-haspopup="true" aria-expanded="false">Events</a>
+                            aria-haspopup="true" aria-expanded="false">Events</a>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="Events1.html#2018-2019">2018-2019</a>
                                 <a class="dropdown-item" href="Events1.html#2019-2020">2019-2020</a>
@@ -101,10 +95,10 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="RSC2021.html">RSC&nbsp;2021</a>
+                            <a class="nav-link" href="RSC2021.html">RSC-2021</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="K-12.html">K&nbsp;-&nbsp;12</a>
+                            <a class="nav-link" href="K-12.html">K-12</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Blog.html">Blog</a>
@@ -113,6 +107,7 @@
                             <a class="nav-link" href="Contact Us.html">Contact&nbsp;Us</a>
                         </li>
                     </ul>
+                </div>
                 </div>
             </div>
         </nav>
@@ -332,6 +327,20 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("bottom-nav");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky && screen.width>=768) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
