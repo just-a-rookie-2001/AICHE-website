@@ -7,8 +7,6 @@ p {
 }
 
 .navbar {
-  position: sticky;
-  position: -webkit-sticky;
   top: 0;
   z-index: 1000;
 }
@@ -18,20 +16,21 @@ p {
   list-style-type: none;
 }
 .navbar-logo {
-  margin-right: 2rem;
   width: 150px;
-  height: 75px !important;
+  height: 75% !important;
 }
 .navbar-mobile,
 .navbar-mobile1 {
   display: none;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .navbar-desktop {
     display: none;
   }
   .navbar-mobile {
     display: flex;
+    width: fit-content;
+    margin: auto;
   }
   .navbar-logo {
     width: 75px;
@@ -46,12 +45,13 @@ p {
     display: flex;
   }
 }
-@media (min-width: 992px) {
-  .bottom-nav {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+.sticky {
+  width: 100%;
+  background-color: #343a40;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
 }
 #mainNav {
   padding-top: 1rem;
@@ -94,8 +94,12 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
 }
+#mainNav .navbar-nav .nav-item {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -121,12 +125,6 @@ p {
   #mainNav.navbar-shrink .navbar-brand svg,
   #mainNav.navbar-shrink .navbar-brand img {
     height: 3.25rem !important;
-  }
-  #mainNav .navbar-nav .nav-item {
-    margin-right: 1rem;
-  }
-  #mainNav .navbar-nav .nav-item:last-child {
-    margin-right: 0;
   }
 }
 
