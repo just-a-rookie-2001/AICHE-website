@@ -49,3 +49,11 @@ img::-moz-selection {
     height: 40px;
   }
 }
+@media (max-width: 425px) {
+  .page-section{
+    padding: 3rem 1rem;
+  }
+  html{
+    font-size: 10px;
+  }
+}
