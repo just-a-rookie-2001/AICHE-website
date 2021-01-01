@@ -1,6 +1,7 @@
 html,body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-family: "Monsterrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 p {
@@ -56,4 +57,10 @@ img::-moz-selection {
   html{
     font-size: 10px;
   }
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item .dropdown-menu{ margin-top: 0; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 }
