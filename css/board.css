@@ -58,7 +58,7 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/banners/banner3.jpg");
+    url("../assets/img/home/banner3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -145,7 +145,7 @@ header.masthead .masthead-heading {
 
 .profile .text {
   color: black;
-  font-size: 1rem;
+  font-size: 0.85rem;
   position: absolute;
   top: 50%;
   left: 50%;

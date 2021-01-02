@@ -52,11 +52,6 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-}
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
@@ -69,15 +64,8 @@ header.masthead .masthead-heading {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
-  header.masthead .masthead-subheading {
-    font-size: 4.5rem;
-    font-weight: 700;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
-  }
   header.masthead .masthead-heading {
-    font-size: 2.25rem;
-    font-weight: 100;
+    font-size: 4.5rem;
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
@@ -131,19 +119,19 @@ header.masthead .masthead-heading {
   margin:.5rem 25vw;
 }
 
-@media (max-width:540px){
+@media (max-width:768px){
   .portfolio-modal .modal-dialog {
     max-width: 100vw;
     margin:.5rem
   }
 }
 .portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
-  font-size: 2vw;
+  font-size: 1.5rem;
   /*line-height: 4rem;*/
 }
 .portfolio-modal .modal-content p.item-intro {
