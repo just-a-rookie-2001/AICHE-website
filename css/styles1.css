@@ -42,6 +42,12 @@ header.masthead .masthead-heading {
   margin-bottom: 2rem;
 }
 
+@media (max-width:360px) {
+  header.masthead .masthead-heading {
+    font-size: 2.25rem !important;
+  }
+}
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 17rem;
